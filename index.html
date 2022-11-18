@@ -1,0 +1,128 @@
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+         crossorigin="anonymous"
+      />
+      <title>Quiz App</title>
+   </head>
+   <body>
+      <!--* Top Section -->
+      <div class="intro py-3 bg-white text-center">
+         <div class="container">
+            <h2 class="text-primary display-3 my-4">Technology Quiz</h2>
+         </div>
+      </div>
+      <!--* Result Section -->
+      <div class="result py-4 d-none bg-light text-center">
+         <div class="container lead">
+            <p>
+               You are
+               <span class="span-text text-primary display-4 p-3">0%</span>nerd
+            </p>
+         </div>
+      </div>
+      <!--* Quiz Section -->
+      <div class="quiz py-5 bg-primary">
+         <div class="container">
+            <h2 class="my-5 text-white">On with the questions...</h2>
+
+            <form class="quiz-form text-light">
+               <div class="my-5">
+                  <p class="lead font-weigth-normal">
+                     1. How many letters are in the alphabet?
+                  </p>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q1" value="A" checked /> 26
+                        letters</label
+                     >
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q1" value="B" checked /> 11
+                        letters</label
+                     >
+                  </div>
+               </div>
+               <div class="my-5">
+                  <p class="lead font-weigth-normal">
+                     2. 'OS' computer abbreviation usually means ?
+                  </p>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q2" value="A" checked />
+                        Order of Significance</label
+                     >
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q2" value="B" checked />
+                        Operating System</label
+                     >
+                  </div>
+               </div>
+               <div class="my-5">
+                  <p class="lead font-weigth-normal">
+                     3. What's a web browser?
+                  </p>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q3" value="A" checked /> A
+                        software program that allows you to access sites on the
+                        World Wide Web</label
+                     >
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q3" value="B" checked /> A
+                        computer that stores WWW files</label
+                     >
+                  </div>
+               </div>
+               <div class="my-5">
+                  <p class="lead font-weigth-normal">4. What is a GPU?</p>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q4" value="A" checked />
+                        Graphical Performance Utility</label
+                     >
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q4" value="B" checked />
+                        Graphics Processing Unit</label
+                     >
+                  </div>
+               </div>
+               <div class="my-5">
+                  <p class="lead font-weigth-normal">
+                     5. What does the abbreviation "http" stand for?
+                  </p>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q5" value="A" checked /> High
+                        Task Termination Procedure</label
+                     >
+                  </div>
+                  <div class="form-check my-2 text-white-50">
+                     <label class="form-check-label"
+                        ><input type="radio" name="q5" value="B" checked />
+                        Hypertext Transfer Protocol</label
+                     >
+                  </div>
+               </div>
+               <div class="text-center">
+                  <input type="submit" class="btn btn-light" />
+               </div>
+            </form>
+         </div>
+      </div>
+      <script src="App.js"></script>
+   </body>
+</html>
